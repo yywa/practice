@@ -61,6 +61,9 @@ public class ElasticSearchOperation {
 
     public static RestHighLevelClient client;
 
+    /**
+     * 建立客户端链接
+     */
     public static void createConnection() {
         try {
             HttpHost[] httpHosts = new HttpHost[1];
@@ -73,12 +76,21 @@ public class ElasticSearchOperation {
         }
     }
 
+    /**
+     * 验证是否有客户端链接
+     */
     public static void validateClient() {
         if (client == null) {
             createConnection();
         }
     }
 
+    /**
+     * 根据条件获取模糊匹配的索引
+     *
+     * @param condition 条件
+     * @return 数组
+     */
     public String[] getIndices(String condition) {
         validateClient();
         try {
@@ -92,6 +104,12 @@ public class ElasticSearchOperation {
         return null;
     }
 
+    /**
+     * 创建索引
+     *
+     * @param indexName index
+     * @return 是否成功
+     */
     public static boolean createIndex(String indexName) {
         validateClient();
         try {
@@ -104,6 +122,12 @@ public class ElasticSearchOperation {
         return true;
     }
 
+    /**
+     * 验证索引是否存在。
+     *
+     * @param indexName index
+     * @return 是否成功
+     */
     public static boolean indexExist(String indexName) {
         boolean flag = false;
         validateClient();
@@ -117,6 +141,12 @@ public class ElasticSearchOperation {
         return flag;
     }
 
+    /**
+     * 删除index
+     *
+     * @param indexName index
+     * @return 是否成功
+     */
     public static boolean deleteIndex(String indexName) {
         boolean flag = false;
         validateClient();
@@ -134,6 +164,12 @@ public class ElasticSearchOperation {
         return flag;
     }
 
+    /**
+     * 统计索引中有多少数据
+     *
+     * @param indexName index
+     * @return 数据
+     */
     public static long countIndex(String indexName) {
         long totalHits = 0L;
         validateClient();
@@ -151,6 +187,15 @@ public class ElasticSearchOperation {
         return totalHits;
     }
 
+    /**
+     * 根据条件删除数据
+     *
+     * @param indexName index
+     * @param type      type
+     * @param key       key
+     * @param value     value
+     * @return 是否成功
+     */
     public static boolean deleteRecordByCondition(String indexName, String type, String key, String value) {
         validateClient();
         try {
@@ -178,6 +223,13 @@ public class ElasticSearchOperation {
         return true;
     }
 
+    /**
+     * 根据ID查询数据
+     *
+     * @param indexName index
+     * @param id        id
+     * @return map
+     */
     public static Map<String, Object> findDateById(String indexName, String id) {
         Map<String, Object> map = Maps.newHashMap();
         validateClient();
@@ -191,6 +243,12 @@ public class ElasticSearchOperation {
         return map;
     }
 
+    /**
+     * 查询索引中的全部数据，因为es中一次查询默认是10条，最大是10000条，所以这里采用滚动遍历的方式.
+     *
+     * @param indexName index
+     * @return map
+     */
     public static List<Map<String, Object>> findAllData(String indexName) {
         validateClient();
         List<Map<String, Object>> list = Lists.newArrayList();
@@ -202,11 +260,28 @@ public class ElasticSearchOperation {
         return list;
     }
 
+    /**
+     * 根据条件查询数据
+     *
+     * @param indexName index
+     * @param key       key
+     * @param value     value
+     * @param batchSize 数据量
+     * @return map
+     */
     public static List<Map<String, Object>> findData(String indexName, String key, Object value, int batchSize) {
         validateClient();
         return getBatchSize(indexName, new MatchQueryBuilder(key, value), batchSize);
     }
 
+    /**
+     * 统计数据量
+     *
+     * @param indexName index
+     * @param key       key
+     * @param value     value
+     * @return long
+     */
     public static Long countData(String indexName, String key, Object value) {
         validateClient();
         long count = 0L;
@@ -223,6 +298,16 @@ public class ElasticSearchOperation {
         return count;
     }
 
+    /**
+     * 根据条件范围查询
+     *
+     * @param indexName index
+     * @param key       key
+     * @param highRange highRange
+     * @param lowRange  lowRange
+     * @param batchSize 一次遍历数据量大小
+     * @return list
+     */
     public static List<Map<String, Object>> findDataByRange(String indexName, String key, Object highRange, Object lowRange, int batchSize) {
         validateClient();
         RangeQueryBuilder rangeQueryBuilder = new RangeQueryBuilder(key).lte(highRange);
@@ -230,12 +315,29 @@ public class ElasticSearchOperation {
         return getBatchSize(indexName, rangeQueryBuilder, batchSize);
     }
 
+    /**
+     * 统计查询的数据量
+     *
+     * @param indexName index
+     * @param key       key
+     * @param highRange highRange
+     * @param lowRange  lowRange
+     * @return
+     */
     public static long countDataByRange(String indexName, String typeName, String key, Object highRange, Object lowRange) {
         validateClient();
         SearchHits rangeHits = getRangeHits(indexName, typeName, key, highRange, lowRange);
         return rangeHits.totalHits;
     }
 
+    /**
+     * 根据多个条件进行查询数据
+     *
+     * @param indexName index
+     * @param typeName  typeName
+     * @param condition condition Map
+     * @return list
+     */
     public static List<Map<String, Object>> findByCondition(String indexName, String typeName, Map<String, Object> condition) {
         validateClient();
         List<Map<String, Object>> list = Lists.newArrayList();
@@ -262,11 +364,25 @@ public class ElasticSearchOperation {
         return list;
     }
 
-
+    /**
+     * 同步单条插入
+     *
+     * @param indexName index
+     * @param data      data
+     * @return 是否成功
+     */
     public static boolean insertOneSync(String indexName, Map<String, Object> data) {
         return insertOneSync(indexName, data, 10000);
     }
 
+    /**
+     * 超时时间检测
+     *
+     * @param indexName index
+     * @param data      data
+     * @param overTime  overTime
+     * @return
+     */
     public static boolean insertOneSync(String indexName, Map<String, Object> data, long overTime) {
         Callable<Boolean> callable = new Callable<Boolean>() {
             @Override
@@ -278,6 +394,12 @@ public class ElasticSearchOperation {
         return getTimeOut(callable, overTime);
     }
 
+    /**
+     * 同步异步插入
+     *
+     * @param indexName index
+     * @param data      data
+     */
     public void insertOneASync(String indexName, Map<String, Object> data) {
         validateClient();
         ActionListener<IndexResponse> listener = new ActionListener<IndexResponse>() {
@@ -296,11 +418,26 @@ public class ElasticSearchOperation {
         client.indexAsync(request, RequestOptions.DEFAULT, listener);
     }
 
+    /**
+     * 同步批量插入
+     *
+     * @param indexName index
+     * @param data      data
+     * @return 是否成功
+     */
     public static boolean insertBulkSync(String indexName, List<Map<String, Object>> data) {
         getBulkInsertSync(indexName, data);
         return true;
     }
 
+    /**
+     * 同步批量插入
+     *
+     * @param indexName index
+     * @param data      data
+     * @param overTime  overtime
+     * @return success
+     */
     public static boolean insertBulkSync(String indexName, List<Map<String, Object>> data, long overTime) {
         Callable<Boolean> callable = new Callable<Boolean>() {
             @Override
@@ -312,6 +449,13 @@ public class ElasticSearchOperation {
         return getTimeOut(callable, overTime);
     }
 
+    /**
+     * 异步批量插入
+     *
+     * @param indexName index
+     * @param data      data
+     * @return success
+     */
     public static boolean insertBulkASync(String indexName, List<Map<String, Object>> data) {
         validateClient();
         ActionListener<BulkResponse> listener = new ActionListener<BulkResponse>() {
@@ -335,10 +479,27 @@ public class ElasticSearchOperation {
         return true;
     }
 
+    /**
+     * 同步单条更新
+     *
+     * @param indexName index
+     * @param data      data
+     * @param id        id
+     * @return success
+     */
     public static boolean upsertOneSyncById(String indexName, Map<String, Object> data, String id) {
         return upsertOneSyncById(indexName, data, id, 10000);
     }
 
+    /**
+     * 同步单条更新的具体实现
+     *
+     * @param indexName index
+     * @param data      data
+     * @param id        id
+     * @param overTime  overTime
+     * @return success
+     */
     public static boolean upsertOneSyncById(String indexName, Map<String, Object> data, String id, long overTime) {
         Callable<Boolean> callable = new Callable<Boolean>() {
             @Override
@@ -350,10 +511,24 @@ public class ElasticSearchOperation {
         return getTimeOut(callable, overTime);
     }
 
+    /**
+     * 异步单条更新
+     *
+     * @param indexName index
+     * @param data      data
+     * @param id        id
+     */
     public static void upsertOneASyncById(String indexName, Map<String, Object> data, String id) {
         upsertOneForASyncResponse(indexName, data, id);
     }
 
+    /**
+     * 异步单条更新
+     *
+     * @param indexName index
+     * @param data      data
+     * @param id        id
+     */
     public static boolean upsertOneForASyncResponse(String indexName, Map<String, Object> data, String id) {
         validateClient();
         ActionListener<UpdateResponse> listener = new ActionListener<UpdateResponse>() {
