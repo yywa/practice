@@ -44,12 +44,15 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.*;
 
+/**
+ * @author yyw
+ */
 public class ElasticSearchOperation {
-    private static String host = "47.106.193.40";
+    private static String host = "127.0.0.1";
     private static Integer port = 9200;
     private static final Integer MAX = 10000;
 
-    private static ThreadLocal<Map<String, String>> scrollThreadLoacl = new ThreadLocal<Map<String, String>>() {
+    private static ThreadLocal<Map<String, String>> scrollThreadLocal = new ThreadLocal<Map<String, String>>() {
         @Override
         protected Map<String, String> initialValue() {
             return new HashMap();
@@ -527,10 +530,10 @@ public class ElasticSearchOperation {
 
     private static List<Map<String, Object>> getBatchSize(String indexName, QueryBuilder queryBuilder, int batchSize) {
         List<Map<String, Object>> list = Lists.newArrayList();
-        if (scrollThreadLoacl.get() == null || !scrollThreadLoacl.get().containsKey(indexName)) {
+        if (scrollThreadLocal.get() == null || !scrollThreadLocal.get().containsKey(indexName)) {
             list = getFirstScrollData(indexName, queryBuilder, batchSize);
         } else {
-            String scroll = scrollThreadLoacl.get().get(indexName);
+            String scroll = scrollThreadLocal.get().get(indexName);
             list = getScrollData(scroll, indexName);
         }
         return list;
@@ -550,7 +553,7 @@ public class ElasticSearchOperation {
             String scrollId = response.getScrollId();
             Map<String, String> map = Maps.newHashMap();
             map.put(indexName, scrollId);
-            scrollThreadLoacl.set(map);
+            scrollThreadLocal.set(map);
             SearchHits hit = response.getHits();
             SearchHit[] hits1 = hit.getHits();
             for (SearchHit searchHit : hits1) {
@@ -579,19 +582,14 @@ public class ElasticSearchOperation {
                 clearScrollRequest.addScrollId(scrollId);
                 client.clearScroll(clearScrollRequest, RequestOptions.DEFAULT);
             } else {
-                scrollThreadLoacl.get().put(indexName, response.getScrollId());
+                scrollThreadLocal.get().put(indexName, response.getScrollId());
             }
         } catch (IOException e) {
-            if (scrollThreadLoacl.get().containsKey(indexName)) {
-                scrollThreadLoacl.get().remove(indexName);
+            if (scrollThreadLocal.get().containsKey(indexName)) {
+                scrollThreadLocal.get().remove(indexName);
             }
             e.printStackTrace();
         }
         return list;
-    }
-
-    public static void main(String[] args) {
-        createConnection();
-        System.out.println(indexExist("yyw"));
     }
 }
