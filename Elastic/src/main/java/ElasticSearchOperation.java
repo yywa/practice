@@ -52,12 +52,7 @@ public class ElasticSearchOperation {
     private static Integer port = 9200;
     private static final Integer MAX = 10000;
 
-    private static ThreadLocal<Map<String, String>> scrollThreadLocal = new ThreadLocal<Map<String, String>>() {
-        @Override
-        protected Map<String, String> initialValue() {
-            return new HashMap();
-        }
-    };
+    private static ThreadLocal<Map<String, String>> scrollThreadLocal = ThreadLocal.withInitial(() -> new HashMap());
 
     public static RestHighLevelClient client;
 
@@ -148,7 +143,7 @@ public class ElasticSearchOperation {
      * @return 是否成功
      */
     public static boolean deleteIndex(String indexName) {
-        boolean flag = false;
+        boolean flag;
         validateClient();
         if (!indexExist(indexName)) {
             return true;
@@ -384,12 +379,9 @@ public class ElasticSearchOperation {
      * @return
      */
     public static boolean insertOneSync(String indexName, Map<String, Object> data, long overTime) {
-        Callable<Boolean> callable = new Callable<Boolean>() {
-            @Override
-            public Boolean call() throws Exception {
-                insertOneForResponse(indexName, data);
-                return true;
-            }
+        Callable<Boolean> callable = () -> {
+            insertOneForResponse(indexName, data);
+            return true;
         };
         return getTimeOut(callable, overTime);
     }
@@ -439,12 +431,9 @@ public class ElasticSearchOperation {
      * @return success
      */
     public static boolean insertBulkSync(String indexName, List<Map<String, Object>> data, long overTime) {
-        Callable<Boolean> callable = new Callable<Boolean>() {
-            @Override
-            public Boolean call() throws Exception {
-                getBulkInsertSync(indexName, data);
-                return true;
-            }
+        Callable<Boolean> callable = () -> {
+            getBulkInsertSync(indexName, data);
+            return true;
         };
         return getTimeOut(callable, overTime);
     }
@@ -501,12 +490,9 @@ public class ElasticSearchOperation {
      * @return success
      */
     public static boolean upsertOneSyncById(String indexName, Map<String, Object> data, String id, long overTime) {
-        Callable<Boolean> callable = new Callable<Boolean>() {
-            @Override
-            public Boolean call() throws Exception {
-                upsertOneForResponse(indexName, data, id);
-                return null;
-            }
+        Callable<Boolean> callable = () -> {
+            upsertOneForResponse(indexName, data, id);
+            return null;
         };
         return getTimeOut(callable, overTime);
     }
@@ -569,12 +555,9 @@ public class ElasticSearchOperation {
     }
 
     public static boolean ussertBulkSyncById(String indexName, List<Map<String, Object>> data, long overTime) {
-        Callable<Boolean> callable = new Callable<Boolean>() {
-            @Override
-            public Boolean call() throws Exception {
-                upsertBulkForResponse(indexName, data);
-                return true;
-            }
+        Callable<Boolean> callable = () -> {
+            upsertBulkForResponse(indexName, data);
+            return true;
         };
         return getTimeOut(callable, overTime);
     }
@@ -704,7 +687,7 @@ public class ElasticSearchOperation {
 
 
     private static List<Map<String, Object>> getBatchSize(String indexName, QueryBuilder queryBuilder, int batchSize) {
-        List<Map<String, Object>> list = Lists.newArrayList();
+        List<Map<String, Object>> list;
         if (scrollThreadLocal.get() == null || !scrollThreadLocal.get().containsKey(indexName)) {
             list = getFirstScrollData(indexName, queryBuilder, batchSize);
         } else {
