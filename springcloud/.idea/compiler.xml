@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="microservice-discovery-eureka" />
         <module name="microservice-simple-provider-user" />
         <module name="microservicesimpleconsumermovie" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="microservice-discovery-eureka" target="1.8" />
       <module name="microservice-simple-provider-user" target="1.8" />
       <module name="microservicesimpleconsumermovie" target="1.8" />
       <module name="springcloud" target="1.5" />
