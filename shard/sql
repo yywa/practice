@@ -1,0 +1,48 @@
+	SET FOREIGN_KEY_CHECKS=0;
+
+	-- ----------------------------
+	-- Table structure for shard_1
+	-- ----------------------------
+	DROP TABLE IF EXISTS `shard_1`;
+	CREATE TABLE `shard_1` (
+	  `id` varchar(11) NOT NULL,
+	  `name` varchar(20) NOT NULL,
+	  PRIMARY KEY (`id`)
+	) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+	-- ----------------------------
+	-- Records of shard_1
+	-- ----------------------------
+	INSERT INTO `shard_1` VALUES ('1-1', 'shard_1');
+
+	-- ----------------------------
+	-- Table structure for shard_2
+	-- ----------------------------
+	DROP TABLE IF EXISTS `shard_2`;
+	CREATE TABLE `shard_2` (
+	  `id` varchar(11) NOT NULL,
+	  `name` varchar(20) NOT NULL,
+	  PRIMARY KEY (`id`)
+	) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+	-- ----------------------------
+	-- Records of shard_2
+	-- ----------------------------
+	INSERT INTO `shard_2` VALUES ('2-1', 'shard_2');
+
+	-- ----------------------------
+	-- Table structure for tables
+	-- ----------------------------
+	DROP TABLE IF EXISTS `tables`;
+	CREATE TABLE `tables` (
+	  `id` varchar(11) NOT NULL,
+	  `tableName` varchar(100) NOT NULL,
+	  PRIMARY KEY (`id`)
+	) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+	-- ----------------------------
+	-- Records of tables
+	-- ----------------------------
+	INSERT INTO `tables` VALUES ('1-1', 'shard_1');
+	INSERT INTO `tables` VALUES ('2-1', 'shard_2');
+
