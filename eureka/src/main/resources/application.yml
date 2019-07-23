@@ -1,0 +1,21 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: cloud-114
+  profiles: host1
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://host2:8762/eureka
+---
+server:
+  port: 8762
+spring:
+  application:
+    name: cloud-114
+  profiles: host2
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://host1:8761/eureka
