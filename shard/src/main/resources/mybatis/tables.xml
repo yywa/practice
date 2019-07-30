@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.yyw.mapper.TableMapper">
-    <select id="getTables" parameterType="java.lang.String" resultType="com.yyw.entity.Table">
+    <select id="getTableName" parameterType="java.lang.String" resultType="com.yyw.entity.Table">
         SELECT * FROM tables WHERE id = #{id}
     </select>
 </mapper>

@@ -16,6 +16,7 @@ public class TableServiceImpl implements TableService {
     @Autowired
     private TableMapper tableMapper;
 
+    @Override
     public String getTableName(String id) {
         Table tables = tableMapper.getTableName(id);
         return StringUtils.isEmpty(tables.getTableName()) ? null : tables.getTableName();

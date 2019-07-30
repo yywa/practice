@@ -3,7 +3,7 @@ server:
 spring:
     datasource:
         druid:
-            url: jdbc:mysql://47.106.193.40:3306/shardbatis?useUnicode=true&characterEncoding=UTF8&&serverTimezone=UTC&useSSL=false
+            url: jdbc:mysql://47.106.193.40:3306/yyw?useUnicode=true&characterEncoding=UTF8&&serverTimezone=UTC&useSSL=false
             username: root
             password: 123456
             min-idle: 5
@@ -18,8 +18,8 @@ spring:
             time-between-eviction-runs-millis: 60000
             min-evictable-idle-time-millis: 300000
 mybatis:
-    mapper-locations: classpath:mapper/*.xml
+    mapper-locations: classpath:mybatis/*.xml
 logging:
     level:
-        com.maiyikai.shardbatis.mapper: debug
+        com.maiyikai.shardbatis.mapper: DEBUG
 

@@ -4,9 +4,6 @@
         "http://shardbatis.googlecode.com/dtd/shardbatis-config.dtd">
 <shardingConfig>
     <!-- 忽略不进行分表策略的mapperid-即对应的方法 -->
-    <ignoreList>
-        <value></value>
-    </ignoreList>
     <!-- 进行分表策略的mapperid-即对应的方法;一定要精确到方法，否则不会被拦截 -->
     <parseList>
         <value>com.yyw.mapper.ShardMapper.getShardResult</value>

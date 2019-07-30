@@ -14,8 +14,9 @@ import org.springframework.stereotype.Service;
 @Service("shardService")
 public class ShardServiceImpl implements ShardService {
     @Autowired
-    ShardMapper shardMapper;
+    private ShardMapper shardMapper;
 
+    @Override
     public String getName(String id) {
         //执行到这条语句时，会被拦截进入到分表策略MyShardStrategy.java中，获取对应的表名称，并且更改sql中的表名
         Shard shard = shardMapper.getShardResult(id);

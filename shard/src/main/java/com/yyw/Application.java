@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @date 2019/7/17
  **/
 @SpringBootApplication
-@MapperScan(value = "com.yyw.mapper")
+@MapperScan(basePackages = "com.yyw.mapper")
 public class Application {
 
     public static void main(String[] args) {
