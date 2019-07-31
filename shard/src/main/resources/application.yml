@@ -21,5 +21,5 @@ mybatis:
     mapper-locations: classpath:mybatis/*.xml
 logging:
     level:
-        com.maiyikai.shardbatis.mapper: DEBUG
+        com.yyw.mapper: DEBUG
 
