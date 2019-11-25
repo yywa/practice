@@ -1,44 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d8642c3-7507-4593-ba8a-3b39a74af51f" name="Default Changelist" comment="eureka集群">
+    <list default="true" id="8d8642c3-7507-4593-ba8a-3b39a74af51f" name="Default Changelist" comment="安全认证eureka">
       <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../springboot/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_5_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-understanding-metadata/microservice-simple-consumer-movie-understanding-metadata.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-understanding-metadata/microservicesimpleconsumermovie.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-understanding-metadata/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-understanding-metadata/src/main/java/study/ConsumerMovieApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-understanding-metadata/src/main/java/study/user/controller/MovieController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-understanding-metadata/src/main/java/study/user/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-understanding-metadata/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-understanding-metadata/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-understanding-metadata/target/classes/study/ConsumerMovieApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-understanding-metadata/target/classes/study/user/controller/MovieController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-understanding-metadata/target/classes/study/user/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-my-metadata/microservice-simple-provider-user-my-metadata.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-my-metadata/microservice-simple-provider-user.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-my-metadata/microservicesimpleprovideruser.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-my-metadata/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-my-metadata/src/main/java/com/yyw/cloud/study/ProviderUserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-my-metadata/src/main/java/com/yyw/cloud/study/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-my-metadata/src/main/java/com/yyw/cloud/study/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-my-metadata/src/main/java/com/yyw/cloud/study/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-my-metadata/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-my-metadata/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-my-metadata/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-my-metadata/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-my-metadata/target/classes/com/yyw/cloud/study/ProviderUserApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-my-metadata/target/classes/com/yyw/cloud/study/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-my-metadata/target/classes/com/yyw/cloud/study/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-my-metadata/target/classes/com/yyw/cloud/study/repository/UserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-my-metadata/target/classes/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-my-metadata/target/classes/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_ribbon_1_4_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-ribbon/microservice-simple-consumer-movie.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-ribbon/microservicesimpleconsumermovie.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-ribbon/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-ribbon/src/main/java/study/ConsumerMovieApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-ribbon/src/main/java/study/user/controller/MovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-ribbon/src/main/java/study/user/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-ribbon/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-ribbon/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-ribbon/target/classes/study/ConsumerMovieApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-ribbon/target/classes/study/user/controller/MovieController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-ribbon/target/classes/study/user/entity/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springbootredis/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springbootredis/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springbootredis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springbootredis/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
@@ -46,6 +25,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-provider-user-my-metadata/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-simple-provider-user-my-metadata/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-provider-user-my-metadata/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-simple-provider-user-my-metadata/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-provider-user-my-metadata/target/classes/com/yyw/cloud/study/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-simple-provider-user-my-metadata/target/classes/com/yyw/cloud/study/controller/UserController.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +73,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservice-simple-consumer-movie-understanding-metadata" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservice-simple-consumer-movie-ribbon" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -114,10 +96,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConsumerMovieApplication (1)">
-    <configuration name="ConsumerMovieApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ConsumerMovieApplication (1)">
+    <configuration name="ConsumerMovieApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="study.ConsumerMovieApplication" />
-      <module name="microservicesimpleconsumermovie" />
+      <module name="microservice-simple-consumer-movie" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="study.*" />
@@ -130,6 +112,19 @@
     </configuration>
     <configuration name="ConsumerMovieApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="microservice-simple-consumer-movie-understanding-metadata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="study.ConsumerMovieApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerMovieApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microservice-simple-consumer-movie" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="study.*" />
@@ -190,10 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConsumerMovieApplication (1)" />
+        <item itemvalue="Application.ConsumerMovieApplication (1)" />
+        <item itemvalue="Spring Boot.ConsumerMovieApplication (2)" />
         <item itemvalue="Spring Boot.ProviderUserApplication (1)" />
+        <item itemvalue="Spring Boot.ConsumerMovieApplication (1)" />
         <item itemvalue="Spring Boot.EurekaApplication (1)" />
-        <item itemvalue="Application.ConsumerMovieApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +204,7 @@
       <option name="presentableId" value="Default" />
       <updated>1563848729680</updated>
       <workItem from="1574689676144" duration="99000" />
-      <workItem from="1574689780168" duration="3420000" />
+      <workItem from="1574689780168" duration="5118000" />
     </task>
     <task id="LOCAL-00001" summary="eureka集群">
       <created>1574691473717</created>
@@ -224,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574691835310</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="安全认证eureka">
+      <created>1574693451240</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574693451240</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +249,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="eureka集群" />
     <MESSAGE value="添加安全认证的eurekaServer" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加安全认证的eurekaServer" />
+    <MESSAGE value="安全认证eureka" />
+    <option name="LAST_COMMIT_MESSAGE" value="安全认证eureka" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
