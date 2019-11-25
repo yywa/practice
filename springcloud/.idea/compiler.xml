@@ -6,17 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="microservice-discovery-eureka-authenticating" />
         <module name="microservice-discovery-eureka" />
+        <module name="microservicesimpleconsumermovie" />
+        <module name="microservice-simple-consumer-movie-understanding-metadata" />
         <module name="microservice-discovery-eureka-ha" />
         <module name="microservice-simple-provider-user" />
-        <module name="microservicesimpleconsumermovie" />
+        <module name="microservice-simple-provider-user-my-metadata" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="eureka" target="1.8" />
       <module name="microservice-discovery-eureka" target="1.8" />
+      <module name="microservice-discovery-eureka-authenticating" target="1.8" />
       <module name="microservice-discovery-eureka-ha" target="1.8" />
+      <module name="microservice-simple-consumer-movie-understanding-metadata" target="1.8" />
       <module name="microservice-simple-provider-user" target="1.8" />
+      <module name="microservice-simple-provider-user-my-metadata" target="1.8" />
       <module name="microservicesimpleconsumermovie" target="1.8" />
       <module name="springcloud" target="1.5" />
     </bytecodeTargetLevel>
