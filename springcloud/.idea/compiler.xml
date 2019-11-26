@@ -11,6 +11,7 @@
         <module name="microservice-discovery-eureka" />
         <module name="microservice-simple-consumer-movie" />
         <module name="microservicesimpleconsumermovie" />
+        <module name="microservice-simple-consumer-movie (3)" />
         <module name="microservice-simple-provider-user (1)" />
         <module name="microservice-simple-consumer-movie-understanding-metadata" />
         <module name="microservice-discovery-eureka-ha" />
@@ -27,6 +28,7 @@
       <module name="microservice-simple-consumer-movie" target="1.8" />
       <module name="microservice-simple-consumer-movie (1)" target="1.8" />
       <module name="microservice-simple-consumer-movie (2)" target="1.8" />
+      <module name="microservice-simple-consumer-movie (3)" target="1.8" />
       <module name="microservice-simple-consumer-movie-understanding-metadata" target="1.8" />
       <module name="microservice-simple-provider-user" target="1.8" />
       <module name="microservice-simple-provider-user (1)" target="1.8" />
