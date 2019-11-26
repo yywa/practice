@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/microservice-simple-provider-user-my-metadata/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-simple-consumer-movie-understanding-metadata/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-simple-consumer-movie-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-simple-provider-user-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-simple-consumer-movie-without-eureka/pom.xml" />
       </list>
     </option>
   </component>
