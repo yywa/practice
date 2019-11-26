@@ -14,6 +14,7 @@
         <module name="microservice-simple-provider-user (1)" />
         <module name="microservice-simple-consumer-movie-understanding-metadata" />
         <module name="microservice-discovery-eureka-ha" />
+        <module name="microservice-simple-consumer-movie (2)" />
         <module name="microservice-simple-provider-user" />
         <module name="microservice-simple-provider-user-my-metadata" />
       </profile>
@@ -25,6 +26,7 @@
       <module name="microservice-discovery-eureka-ha" target="1.8" />
       <module name="microservice-simple-consumer-movie" target="1.8" />
       <module name="microservice-simple-consumer-movie (1)" target="1.8" />
+      <module name="microservice-simple-consumer-movie (2)" target="1.8" />
       <module name="microservice-simple-consumer-movie-understanding-metadata" target="1.8" />
       <module name="microservice-simple-provider-user" target="1.8" />
       <module name="microservice-simple-provider-user (1)" target="1.8" />
