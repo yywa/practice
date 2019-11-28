@@ -6,41 +6,26 @@
       <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../springboot/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-feign-manual/microservice-simple-consumer-movie (2).iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-feign-manual/microservice-simple-consumer-movie (4).iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-feign-manual/microservicesimpleconsumermovie.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-feign-manual/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-feign-manual/src/main/java/study/ConsumerMovieApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-feign-manual/src/main/java/study/user/controller/MovieController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-feign-manual/src/main/java/study/user/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-feign-manual/src/main/java/study/user/service/UserFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-feign-manual/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-feign-manual/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-feign-manual/target/classes/study/ConsumerMovieApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-feign-manual/target/classes/study/user/controller/MovieController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-feign-manual/target/classes/study/user/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-feign-manual/target/classes/study/user/service/UserFeignClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-with-auth/microservice-simple-provider-user (2).iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-with-auth/microservice-simple-provider-user.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-with-auth/microservicesimpleprovideruser.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-with-auth/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-with-auth/src/main/java/com/yyw/cloud/study/ProviderUserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-with-auth/src/main/java/com/yyw/cloud/study/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-with-auth/src/main/java/com/yyw/cloud/study/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-with-auth/src/main/java/com/yyw/cloud/study/entity/SecurityUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-with-auth/src/main/java/com/yyw/cloud/study/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-with-auth/src/main/java/com/yyw/cloud/study/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-with-auth/src/main/java/com/yyw/cloud/study/service/impl/CustomUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-with-auth/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-with-auth/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-with-auth/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-with-auth/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-with-auth/target/classes/com/yyw/cloud/study/ProviderUserApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-with-auth/target/classes/com/yyw/cloud/study/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-with-auth/target/classes/com/yyw/cloud/study/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-with-auth/target/classes/com/yyw/cloud/study/repository/UserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-with-auth/target/classes/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-simple-provider-user-with-auth/target/classes/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_hystrix_1_4_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_1_4_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-ribbon-hystrix/microservice-simple-consumer-movie (6).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-ribbon-hystrix/microservice-simple-consumer-movie.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-ribbon-hystrix/microservicesimpleconsumermovie.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-ribbon-hystrix/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-ribbon-hystrix/src/main/java/study/ConsumerMovieApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-ribbon-hystrix/src/main/java/study/user/controller/MovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-ribbon-hystrix/src/main/java/study/user/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-ribbon-hystrix/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-ribbon-hystrix/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-ribbon-hystrix/target/classes/study/ConsumerMovieApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-ribbon-hystrix/target/classes/study/user/controller/MovieController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie-ribbon-hystrix/target/classes/study/user/entity/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springbootredis/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springbootredis/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springbootredis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springbootredis/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
@@ -76,12 +61,6 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
-  </component>
   <component name="ProjectId" id="1U6v5JJ1aKQSQm6lR2QyTepZDbJ" />
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -93,11 +72,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservice-simple-consumer-movie-feign-manual" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15234375" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -116,7 +95,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProviderUserApplication (2)">
+  <component name="RunManager" selected="Spring Boot.ProviderUserApplication">
+    <configuration name="ConsumerMovieApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.ConsumerMovieApplication" />
+      <module name="microservice-simple-consumer-movie (6)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConsumerMovieApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="microservice-simple-consumer-movie (3)" />
       <extension name="coverage">
@@ -130,8 +122,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumerMovieApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="microservice-simple-consumer-movie (1)" />
+    <configuration name="ConsumerMovieApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microservice-simple-consumer-movie (6)" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="study.*" />
@@ -170,19 +162,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProviderUserApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="microservice-simple-provider-user-my-metadata" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yyw.cloud.study.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yyw.cloud.study.ProviderUserApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ProviderUserApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="microservice-simple-provider-user (2)" />
       <extension name="coverage">
@@ -205,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ConsumerMovieApplication (2)" />
+        <item itemvalue="Application.ConsumerMovieApplication" />
         <item itemvalue="Spring Boot.ProviderUserApplication (2)" />
         <item itemvalue="Spring Boot.ConsumerMovieApplication (1)" />
         <item itemvalue="Spring Boot.ConsumerMovieApplication (4)" />
-        <item itemvalue="Spring Boot.ProviderUserApplication (1)" />
-        <item itemvalue="Spring Boot.ConsumerMovieApplication (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +204,9 @@
       <updated>1563848729680</updated>
       <workItem from="1574689676144" duration="99000" />
       <workItem from="1574689780168" duration="5161000" />
-      <workItem from="1574773200197" duration="7273000" />
+      <workItem from="1574773200197" duration="7608000" />
+      <workItem from="1574857365084" duration="1459000" />
+      <workItem from="1574945677441" duration="3811000" />
     </task>
     <task id="LOCAL-00001" summary="eureka集群">
       <created>1574691473717</created>
@@ -283,7 +264,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574777368351</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="自定义feign，添加安全认证。">
+      <created>1574780531409</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1574780531409</updated>
+    </task>
+    <task id="LOCAL-00010" summary="单独针对某一feign客户端添加log级别">
+      <created>1574947211825</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1574947211825</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +306,9 @@
     <MESSAGE value="ribbon不依赖eureka" />
     <MESSAGE value="Feign 声明式调用restAPI" />
     <MESSAGE value="feign自定义配置调用" />
-    <option name="LAST_COMMIT_MESSAGE" value="feign自定义配置调用" />
+    <MESSAGE value="自定义feign，添加安全认证。" />
+    <MESSAGE value="单独针对某一feign客户端添加log级别" />
+    <option name="LAST_COMMIT_MESSAGE" value="单独针对某一feign客户端添加log级别" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

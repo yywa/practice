@@ -16,6 +16,8 @@
         <option value="$PROJECT_DIR$/microservice-simple-consumer-movie-feign-customizing/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-simple-provider-user-with-auth/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-simple-consumer-movie-feign-manual/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-simple-consumer-movie-feign-loggin/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-simple-consumer-movie-ribbon-hystrix/pom.xml" />
       </list>
     </option>
   </component>

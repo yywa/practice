@@ -7,19 +7,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microservice-discovery-eureka-ha" />
-        <module name="microservice-simple-provider-user (2)" />
         <module name="microservice-simple-provider-user-my-metadata" />
         <module name="microservicesimpleconsumermovie" />
         <module name="microservice-simple-consumer-movie" />
         <module name="microservice-discovery-eureka-authenticating" />
+        <module name="microservice-simple-consumer-movie (6)" />
         <module name="microservice-simple-provider-user" />
         <module name="microservice-simple-consumer-movie (1)" />
         <module name="microservice-discovery-eureka" />
         <module name="microservice-simple-consumer-movie (2)" />
+        <module name="microservice-simple-consumer-movie (4)" />
+        <module name="microservice-simple-consumer-movie (5)" />
         <module name="microservice-simple-consumer-movie (3)" />
         <module name="microservice-simple-consumer-movie-understanding-metadata" />
         <module name="microservice-simple-provider-user (1)" />
-        <module name="microservice-simple-consumer-movie (4)" />
+        <module name="microservice-simple-provider-user (2)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -32,6 +34,8 @@
       <module name="microservice-simple-consumer-movie (2)" target="1.8" />
       <module name="microservice-simple-consumer-movie (3)" target="1.8" />
       <module name="microservice-simple-consumer-movie (4)" target="1.8" />
+      <module name="microservice-simple-consumer-movie (5)" target="1.8" />
+      <module name="microservice-simple-consumer-movie (6)" target="1.8" />
       <module name="microservice-simple-consumer-movie-understanding-metadata" target="1.8" />
       <module name="microservice-simple-provider-user" target="1.8" />
       <module name="microservice-simple-provider-user (1)" target="1.8" />
