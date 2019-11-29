@@ -18,6 +18,10 @@
         <option value="$PROJECT_DIR$/microservice-simple-consumer-movie-feign-manual/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-simple-consumer-movie-feign-loggin/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-simple-consumer-movie-ribbon-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-simple-consumer-movie-feign-hystrix-fallback/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-hystrix-turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-simple-consumer-movie-ribbon-hystrix-turbine-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-hystrix-turbine-mq/pom.xml" />
       </list>
     </option>
   </component>
