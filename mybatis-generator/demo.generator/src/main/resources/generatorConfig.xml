@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <context id="context1">
+        <plugin type="org.mybatis.generator.plugins.SerializablePlugin"/>
+    
+        <plugin type="com.demo.mybatis.plugin.MysqlPagePlugin"/>
+        <plugin type="com.demo.mybatis.plugin.LombokPlugin"/>
+
+        <commentGenerator type="com.demo.mybatis.comment.MyCommentGenerator">
+
+        </commentGenerator>
+
+
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+         connectionURL="jdbc:mysql://47.106.193.40:3306/yyw?useUnicode=true&amp;characterEncoding=UTF8"
+         userId="root" password="123456">
+        </jdbcConnection>
+        
+        <javaModelGenerator targetPackage="com.demo.biz.entity.base"
+         targetProject="demo.biz/src/main/java"/>
+        <sqlMapGenerator targetPackage="com.demo.biz.mapper.base"
+         targetProject="demo.biz/src/main/resources"/>
+        <javaClientGenerator targetPackage="com.demo.biz.mapper.base"
+         targetProject="demo.biz/src/main/java" type="XMLMAPPER"/>
+
+
+        <table tableName="user" alias="us_user_info" domainObjectName="User">
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+        </table>
+
+
+
+
+    </context>
+</generatorConfiguration>

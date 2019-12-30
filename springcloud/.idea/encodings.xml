@@ -18,6 +18,8 @@
     <file url="file://$PROJECT_DIR$/microservice-simple-provider-user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-simple-provider-user-my-metadata" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-simple-provider-user-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-simple-provider-user-trace" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-simple-provider-user-with-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicec-file-upload" charset="UTF-8" />
   </component>
 </project>

@@ -7,33 +7,41 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microservice-discovery-eureka-ha" />
+        <module name="microservice-hystrix-turbine" />
         <module name="microservice-simple-provider-user (2)" />
         <module name="microservice-simple-provider-user-my-metadata" />
         <module name="microservicesimpleconsumermovie" />
         <module name="microservice-simple-consumer-movie" />
         <module name="microservice-discovery-eureka-authenticating" />
         <module name="microservice-simple-consumer-movie (6)" />
-        <module name="microservice-hystrix-turbine" />
+        <module name="microservice-gataway-zuul" />
+        <module name="microservice-gataway-zuul (2)" />
         <module name="microservice-simple-consumer-movie-ribbon-hystrix-turbine-mq" />
         <module name="microservice-simple-provider-user" />
         <module name="microservice-simple-consumer-movie (1)" />
+        <module name="microservicecfileupload" />
         <module name="microservice-discovery-eureka" />
+        <module name="microservice-simple-provider-user-trace" />
         <module name="microservice-simple-consumer-movie (2)" />
         <module name="microservicehystrixdashboard" />
         <module name="microservice-hystrix-dashboard" />
         <module name="microservice-simple-consumer-movie (4)" />
         <module name="microservice-simple-consumer-movie (5)" />
         <module name="microservice-simple-consumer-movie (3)" />
+        <module name="microservice-gataway-zuul (1)" />
         <module name="microservice-simple-consumer-movie-understanding-metadata" />
+        <module name="microservicegatawayzuul" />
         <module name="microservice-simple-provider-user (1)" />
         <module name="microservice-simple-consumer-movie-feign-hystrix-fallback" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="eureka" target="1.8" />
       <module name="microservice-discovery-eureka" target="1.8" />
       <module name="microservice-discovery-eureka-authenticating" target="1.8" />
       <module name="microservice-discovery-eureka-ha" target="1.8" />
+      <module name="microservice-gataway-zuul" target="1.5" />
+      <module name="microservice-gataway-zuul (1)" target="1.5" />
+      <module name="microservice-gataway-zuul (2)" target="1.5" />
       <module name="microservice-hystrix-dashboard" target="1.5" />
       <module name="microservice-hystrix-turbine" target="1.5" />
       <module name="microservice-simple-consumer-movie" target="1.8" />
@@ -50,6 +58,9 @@
       <module name="microservice-simple-provider-user (1)" target="1.8" />
       <module name="microservice-simple-provider-user (2)" target="1.8" />
       <module name="microservice-simple-provider-user-my-metadata" target="1.8" />
+      <module name="microservice-simple-provider-user-trace" target="1.8" />
+      <module name="microservicecfileupload" target="1.8" />
+      <module name="microservicegatawayzuul" target="1.5" />
       <module name="microservicehystrixdashboard" target="1.5" />
       <module name="microservicesimpleconsumermovie" target="1.8" />
       <module name="springcloud" target="1.5" />

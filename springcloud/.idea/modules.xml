@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/microservice-discovery-eureka/microservice-discovery-eureka.iml" filepath="$PROJECT_DIR$/microservice-discovery-eureka/microservice-discovery-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-discovery-eureka-authenticating/microservice-discovery-eureka-authenticating.iml" filepath="$PROJECT_DIR$/microservice-discovery-eureka-authenticating/microservice-discovery-eureka-authenticating.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-discovery-eureka-ha/microservice-discovery-eureka-ha.iml" filepath="$PROJECT_DIR$/microservice-discovery-eureka-ha/microservice-discovery-eureka-ha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-gataway-zuul-filter/microservice-gataway-zuul.iml" filepath="$PROJECT_DIR$/microservice-gataway-zuul-filter/microservice-gataway-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-gataway-zuul-fallback/microservice-gataway-zuul (1).iml" filepath="$PROJECT_DIR$/microservice-gataway-zuul-fallback/microservice-gataway-zuul (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-gataway-zuul-aggregation/microservice-gataway-zuul (2).iml" filepath="$PROJECT_DIR$/microservice-gataway-zuul-aggregation/microservice-gataway-zuul (2).iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-hystrix-turbine/microservice-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/microservice-hystrix-turbine/microservice-hystrix-dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-hystrix-turbine-mq/microservice-hystrix-turbine.iml" filepath="$PROJECT_DIR$/microservice-hystrix-turbine-mq/microservice-hystrix-turbine.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-simple-consumer-movie-ribbon/microservice-simple-consumer-movie.iml" filepath="$PROJECT_DIR$/microservice-simple-consumer-movie-ribbon/microservice-simple-consumer-movie.iml" />
@@ -21,6 +24,9 @@
       <module fileurl="file://$PROJECT_DIR$/microservice-simple-provider-user-ribbon/microservice-simple-provider-user (1).iml" filepath="$PROJECT_DIR$/microservice-simple-provider-user-ribbon/microservice-simple-provider-user (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-simple-provider-user-with-auth/microservice-simple-provider-user (2).iml" filepath="$PROJECT_DIR$/microservice-simple-provider-user-with-auth/microservice-simple-provider-user (2).iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-simple-provider-user-my-metadata/microservice-simple-provider-user-my-metadata.iml" filepath="$PROJECT_DIR$/microservice-simple-provider-user-my-metadata/microservice-simple-provider-user-my-metadata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-simple-provider-user-trace/microservice-simple-provider-user-trace.iml" filepath="$PROJECT_DIR$/microservice-simple-provider-user-trace/microservice-simple-provider-user-trace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservicec-file-upload/microservicecfileupload.iml" filepath="$PROJECT_DIR$/microservicec-file-upload/microservicecfileupload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-gataway-zuul/microservicegatawayzuul.iml" filepath="$PROJECT_DIR$/microservice-gataway-zuul/microservicegatawayzuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-hystrix-dashboard/microservicehystrixdashboard.iml" filepath="$PROJECT_DIR$/microservice-hystrix-dashboard/microservicehystrixdashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-simple-consumer-movie/microservicesimpleconsumermovie.iml" filepath="$PROJECT_DIR$/microservice-simple-consumer-movie/microservicesimpleconsumermovie.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" />

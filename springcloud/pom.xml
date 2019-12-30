@@ -12,6 +12,8 @@
         <module>microservice-simple-provider-user</module>
         <module>microservice-simple-consumer-movie</module>
         <module>microservice-hystrix-dashboard</module>
+        <module>microservice-gataway-zuul</module>
+        <module>microservicec-file-upload</module>
     </modules>
 
 

@@ -5,23 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33adab0c-a7ce-4f90-b992-349a43a631c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../shard/target/classes/mybatis/shardMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shard/target/classes/shard/shard_config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eurekatest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eurekatest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shard/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../shard/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shard/target/classes/com/yyw/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shard/target/classes/com/yyw/SpringContextAware.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shard/target/classes/com/yyw/config/ShardConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shard/target/classes/com/yyw/controller/ShardbatisController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shard/target/classes/com/yyw/entity/Shard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shard/target/classes/com/yyw/entity/Table.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shard/target/classes/com/yyw/mapper/ShardMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shard/target/classes/com/yyw/mapper/TableMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shard/target/classes/com/yyw/service/ShardService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shard/target/classes/com/yyw/service/TableService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shard/target/classes/com/yyw/service/impl/ShardServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shard/target/classes/com/yyw/service/impl/TableServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shard/target/classes/com/yyw/strategy/MyShardStrategy.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/microservice-discovery-eureka-ha/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/microservice-discovery-eureka-ha/microservice-discovery-eureka (1).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/microservice-discovery-eureka-ha/microservice-discovery-eureka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/microservice-discovery-eureka-ha/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/microservice-discovery-eureka-ha/src/main/java/com/yyw/cloud/study/EurekaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/microservice-discovery-eureka-ha/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,7 +31,7 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yyw/config/Swagger2.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -51,14 +45,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yyw/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="26" column="49" lean-forward="true" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+            <state relative-caret-position="432">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#875#876#0" expanded="true" />
-                <element signature="e#922#923#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,77 +115,16 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="springbootredis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootredis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootredis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootredis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootredis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootredis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootredis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootredis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootredis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootredis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yyw" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootredis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootredis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yyw" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootredis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootredis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yyw" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootredis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootredis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/yyw" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/mybatis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
@@ -256,17 +196,14 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Code Review" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.41603467" />
@@ -274,14 +211,18 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -300,20 +241,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/tools/repository/org/springframework/data/spring-data-redis/2.0.6.RELEASE/spring-data-redis-2.0.6.RELEASE.jar!/org/springframework/data/redis/core/ValueOperations.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/tools/repository/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE.jar!/org/springframework/web/bind/annotation/RestController.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://E:/tools/repository/org/springframework/data/spring-data-redis/2.0.6.RELEASE/spring-data-redis-2.0.6.RELEASE.jar!/org/springframework/data/redis/core/ValueOperations.class" />
+    <entry file="jar://E:/tools/repository/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE.jar!/org/springframework/web/bind/annotation/RestController.class" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/user.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -369,10 +298,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yyw/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1384">
-          <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
+        <state relative-caret-position="432">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -386,15 +318,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yyw/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="26" column="49" lean-forward="true" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="80">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
         </state>
       </provider>
     </entry>
